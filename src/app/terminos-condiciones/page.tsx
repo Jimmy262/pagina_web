@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TerminosCondiciones() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -19,34 +21,34 @@ export default function TerminosCondiciones() {
           <nav className="border-t border-blue-700 pt-4 pb-2">
             <ul className="flex flex-wrap justify-center space-x-4 text-sm">
               <li>
-                <a href="/" className="nav-link flex items-center space-x-2">
+                <Link href="/" className="nav-link flex items-center space-x-2">
                   <span>🏠</span>
                   <span>Inicio</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/quienes-somos" className="nav-link flex items-center space-x-2">
+                <Link href="/quienes-somos" className="nav-link flex items-center space-x-2">
                   <span>👥</span>
                   <span>Quiénes Somos</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contacto" className="nav-link flex items-center space-x-2">
+                <Link href="/contacto" className="nav-link flex items-center space-x-2">
                   <span>📞</span>
                   <span>Contacto</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/politica-privacidad" className="nav-link flex items-center space-x-2">
+                <Link href="/politica-privacidad" className="nav-link flex items-center space-x-2">
                   <span>🔒</span>
                   <span>Privacidad</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terminos-condiciones" className="nav-link active flex items-center space-x-2">
+                <Link href="/terminos-condiciones" className="nav-link nav-link-active flex items-center space-x-2">
                   <span>📋</span>
                   <span>Términos</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -69,8 +71,8 @@ export default function TerminosCondiciones() {
               <h2 className="text-2xl font-semibold text-blue-900 mb-4">1. Aceptación de los Términos</h2>
               <p className="mb-4">
                 Al acceder y utilizar los servicios de <strong>Consorcio Neptuno Constructora & Inmobiliaria S.a.C.</strong>
-                (en adelante, "la Empresa" o "nosotros"), usted acepta estar sujeto a estos Términos y Condiciones
-                (en adelante, "los Términos"). Si no está de acuerdo con alguno de estos términos, le solicitamos
+                (en adelante, &quot;la Empresa&quot; o &quot;nosotros&quot;), usted acepta estar sujeto a estos Términos y Condiciones
+                (en adelante, &quot;los Términos&quot;). Si no está de acuerdo con alguno de estos términos, le solicitamos
                 que no utilice nuestros servicios.
               </p>
             </section>

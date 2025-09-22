@@ -32,7 +32,7 @@ const config: Config = {
     },
   },
   plugins: [
-    function({ addUtilities, addComponents, theme }) {
+    function({ addUtilities, addComponents, theme }: any) {
       addUtilities({
         '.hero-gradient': {
           background: 'linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #1d4ed8 100%)',

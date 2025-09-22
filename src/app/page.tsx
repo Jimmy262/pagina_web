@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -19,34 +21,34 @@ export default function Home() {
           <nav className="border-t border-blue-700 pt-4 pb-2">
             <ul className="flex flex-wrap justify-center space-x-4 text-sm">
               <li>
-                <a href="/" className="nav-link nav-link-active flex items-center space-x-2">
+                <Link href="/" className="nav-link nav-link-active flex items-center space-x-2">
                   <span>🏠</span>
                   <span>Inicio</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/quienes-somos" className="nav-link flex items-center space-x-2">
+                <Link href="/quienes-somos" className="nav-link flex items-center space-x-2">
                   <span>👥</span>
                   <span>Quiénes Somos</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contacto" className="nav-link flex items-center space-x-2">
+                <Link href="/contacto" className="nav-link flex items-center space-x-2">
                   <span>📞</span>
                   <span>Contacto</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/politica-privacidad" className="nav-link flex items-center space-x-2">
+                <Link href="/politica-privacidad" className="nav-link flex items-center space-x-2">
                   <span>🔒</span>
                   <span>Privacidad</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
+                <Link href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
                   <span>📋</span>
                   <span>Términos</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -82,12 +84,12 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a href="/contacto" className="btn-primary text-lg">
+              <Link href="/contacto" className="btn-primary text-lg">
                 🚀 Solicitar Cotización
-              </a>
-              <a href="/quienes-somos" className="btn-secondary text-lg">
+              </Link>
+              <Link href="/quienes-somos" className="btn-secondary text-lg">
                 👁️ Ver Nuestro Trabajo
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -187,9 +189,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <a href="/quienes-somos" className="btn-primary inline-block">
+              <Link href="/quienes-somos" className="btn-primary inline-block">
                 Conoce Más Sobre Nosotros →
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -260,9 +262,9 @@ export default function Home() {
             <p className="text-gray-600 text-lg mb-6">
               ¿Necesitas un servicio específico? Contáctanos para una consulta personalizada.
             </p>
-            <a href="/contacto" className="btn-secondary">
+            <Link href="/contacto" className="btn-secondary">
               💬 Consultar Servicio Personalizado
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -278,9 +280,9 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <a href="/contacto" className="btn-primary text-lg px-8 py-3">
+            <Link href="/contacto" className="btn-primary text-lg px-8 py-3">
               📞 Solicitar Información
-            </a>
+            </Link>
             <a href="tel:998994969" className="btn-secondary text-lg px-8 py-3">
               📱 Llamar: 998 994 969
             </a>
@@ -391,28 +393,28 @@ export default function Home() {
               <h4 className="text-xl font-bold mb-6 text-white">Legal</h4>
               <ul className="space-y-4">
                 <li>
-                  <a href="/politica-privacidad" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
+                  <Link href="/politica-privacidad" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
                     <span>🔒</span>
                     <span>Política de Privacidad</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/terminos-condiciones" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
+                  <Link href="/terminos-condiciones" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
                     <span>📋</span>
                     <span>Términos y Condiciones</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/quienes-somos" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
+                  <Link href="/quienes-somos" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
                     <span>👥</span>
                     <span>Quiénes Somos</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contacto" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
+                  <Link href="/contacto" className="text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
                     <span>📞</span>
                     <span>Contacto</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

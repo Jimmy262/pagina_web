@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function QuienesSomos() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -19,34 +21,34 @@ export default function QuienesSomos() {
           <nav className="border-t border-blue-700 pt-4 pb-2">
             <ul className="flex flex-wrap justify-center space-x-4 text-sm">
               <li>
-                <a href="/" className="nav-link flex items-center space-x-2">
+                <Link href="/" className="nav-link flex items-center space-x-2">
                   <span>🏠</span>
                   <span>Inicio</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/quienes-somos" className="nav-link nav-link-active flex items-center space-x-2">
+                <Link href="/quienes-somos" className="nav-link nav-link-active flex items-center space-x-2">
                   <span>👥</span>
                   <span>Quiénes Somos</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contacto" className="nav-link flex items-center space-x-2">
+                <Link href="/contacto" className="nav-link flex items-center space-x-2">
                   <span>📞</span>
                   <span>Contacto</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/politica-privacidad" className="nav-link flex items-center space-x-2">
+                <Link href="/politica-privacidad" className="nav-link flex items-center space-x-2">
                   <span>🔒</span>
                   <span>Privacidad</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
+                <Link href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
                   <span>📋</span>
                   <span>Términos</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -293,12 +295,12 @@ export default function QuienesSomos() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
+            <Link
               href="/contacto"
               className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
             >
               📞 Solicitar Contacto
-            </a>
+            </Link>
             <a
               href="tel:998994969"
               className="border border-blue-600 text-blue-600 px-6 py-3 rounded-md hover:bg-blue-50 transition-colors"

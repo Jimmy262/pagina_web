@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Contacto() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -19,34 +21,34 @@ export default function Contacto() {
           <nav className="border-t border-blue-700 pt-4 pb-2">
             <ul className="flex flex-wrap justify-center space-x-4 text-sm">
               <li>
-                <a href="/" className="nav-link flex items-center space-x-2">
+                <Link href="/" className="nav-link flex items-center space-x-2">
                   <span>🏠</span>
                   <span>Inicio</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/quienes-somos" className="nav-link flex items-center space-x-2">
+                <Link href="/quienes-somos" className="nav-link flex items-center space-x-2">
                   <span>👥</span>
                   <span>Quiénes Somos</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contacto" className="nav-link nav-link-active flex items-center space-x-2">
+                <Link href="/contacto" className="nav-link nav-link-active flex items-center space-x-2">
                   <span>📞</span>
                   <span>Contacto</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/politica-privacidad" className="nav-link flex items-center space-x-2">
+                <Link href="/politica-privacidad" className="nav-link flex items-center space-x-2">
                   <span>🔒</span>
                   <span>Privacidad</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
+                <Link href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
                   <span>📋</span>
                   <span>Términos</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -225,13 +227,13 @@ export default function Contacto() {
                   />
                   <label htmlFor="acepto" className="text-sm text-gray-600">
                     Acepto la{' '}
-                    <a href="/politica-privacidad" className="text-blue-600 hover:underline">
+                    <Link href="/politica-privacidad" className="text-blue-600 hover:underline">
                       Política de Privacidad
-                    </a>{' '}
+                    </Link>{' '}
                     y los{' '}
-                    <a href="/terminos-condiciones" className="text-blue-600 hover:underline">
+                    <Link href="/terminos-condiciones" className="text-blue-600 hover:underline">
                       Términos y Condiciones
-                    </a>
+                    </Link>
                   </label>
                 </div>
 

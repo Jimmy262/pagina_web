@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PoliticaPrivacidad() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -19,34 +21,34 @@ export default function PoliticaPrivacidad() {
           <nav className="border-t border-blue-700 pt-4 pb-2">
             <ul className="flex flex-wrap justify-center space-x-4 text-sm">
               <li>
-                <a href="/" className="nav-link flex items-center space-x-2">
+                <Link href="/" className="nav-link flex items-center space-x-2">
                   <span>🏠</span>
                   <span>Inicio</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/quienes-somos" className="nav-link flex items-center space-x-2">
+                <Link href="/quienes-somos" className="nav-link flex items-center space-x-2">
                   <span>👥</span>
                   <span>Quiénes Somos</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contacto" className="nav-link flex items-center space-x-2">
+                <Link href="/contacto" className="nav-link flex items-center space-x-2">
                   <span>📞</span>
                   <span>Contacto</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/politica-privacidad" className="nav-link nav-link-active flex items-center space-x-2">
+                <Link href="/politica-privacidad" className="nav-link nav-link-active flex items-center space-x-2">
                   <span>🔒</span>
                   <span>Privacidad</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
+                <Link href="/terminos-condiciones" className="nav-link flex items-center space-x-2">
                   <span>📋</span>
                   <span>Términos</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -68,8 +70,8 @@ export default function PoliticaPrivacidad() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-blue-900 mb-4">1. Introducción</h2>
               <p className="mb-4">
-                En <strong>Consorcio Neptuno Constructora & Inmobiliaria S.a.C.</strong> (en adelante, "la Empresa",
-                "nosotros" o "nuestro"), respetamos su privacidad y nos comprometemos a proteger sus datos personales.
+                En <strong>Consorcio Neptuno Constructora & Inmobiliaria S.a.C.</strong> (en adelante, &quot;la Empresa&quot;,
+                &quot;nosotros&quot; o &quot;nuestro&quot;), respetamos su privacidad y nos comprometemos a proteger sus datos personales.
                 Esta Política de Privacidad explica cómo recopilamos, utilizamos, divulgamos y salvaguardamos su
                 información cuando visita nuestro sitio web, utiliza nuestros servicios o interactúa con nosotros.
               </p>
